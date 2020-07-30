@@ -1,0 +1,73 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html{
+  font-size: 100px;
+  background-color: #F5F5F5;
+}
+header{
+  position: relative;
+  img{
+    width: 100%;
+  }
+  .my{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: .1rem;
+    img{
+      width: .27rem;
+      margin:0 .1rem;
+    }
+  }
+  .tou{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    font-size: .14rem;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+      width: .6rem;
+      margin-bottom: .1rem;
+    }
+    span{
+      display: block;
+      padding: .03rem  .2rem;
+      border: .01rem solid #fff;
+      color: #fff;
+    }
+  }
+}
+.my-list{
+  background-color: #fff;
+  padding: .1rem .2rem;
+  font-size: .14rem;
+  li{
+    padding: .15rem .25rem;
+    border-bottom: .01rem solid #ccc;
+    background: url(../image/my/icon1.png) no-repeat 0 .13rem,
+    url(../image/my/right.png) no-repeat right .15rem;
+    background-size: .2rem,.08rem;
+    &:nth-child(2){
+      background: url(../image/my/icon2.png) no-repeat 0 .13rem,
+    url(../image/my/right.png) no-repeat right .15rem;
+    background-size: .2rem,.08rem;
+    }
+    &:nth-child(3){
+      background: url(../image/my/icon3.png) no-repeat 0 .13rem,
+    url(../image/my/right.png) no-repeat right .15rem;
+    background-size: .2rem,.08rem;
+    }
+    &:nth-child(4){
+      background: url(../image/my/icon4.png) no-repeat 0 .13rem,
+    url(../image/my/right.png) no-repeat right .15rem;
+    background-size: .2rem,.08rem;
+    }
+  }
+}
